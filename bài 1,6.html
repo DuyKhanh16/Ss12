@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let toTal=0
+        let count=0
+       
+            for (let a = 1; a>0; a++) {
+                if (a%7==0) {
+                    toTal+=a
+                    document.write(`${a} <br>`)
+                    count++
+                    if (count==30) {
+                        break;
+                    }
+                }
+            }
+        
+    document.write(`Total = ${toTal}`)
+    </script>
+</body>
+</html>
